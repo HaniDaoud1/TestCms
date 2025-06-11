@@ -20,6 +20,8 @@ import {
 import { styled } from '@mui/material/styles';
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const VisuallyHiddenInput = styled('input')({
   clip: 'rect(0 0 0 0)',
@@ -146,6 +148,7 @@ function AddProductForm() {
   };
 
   return (
+    <> <Navbar />
     <Box 
       sx={{ 
         minHeight: '100vh',
@@ -339,6 +342,7 @@ function AddProductForm() {
         </CardContent>
       </Card>
     </Box>
+    <Footer/></>
   );
 }
 
