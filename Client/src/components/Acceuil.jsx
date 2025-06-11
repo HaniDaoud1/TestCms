@@ -19,7 +19,7 @@ function Acceuil() {
     const getProducts = async ()=>{
 
       try {
-        const response=await fetch('http://localhost:5000/article/allproducts', {
+        const response=await fetch('https://testcms-wd1h.onrender.com/article/allproducts', {
           method: "GET",
           headers: { "Content-Type": "application/json" ,
             "Authorization": `Bearer ${user.token}`

@@ -46,7 +46,7 @@ export default function RegisterPage() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/auth/register", {
+      const res = await fetch("https://testcms-wd1h.onrender.com/auth/register", {
         method: "POST",
         body: data,
       });

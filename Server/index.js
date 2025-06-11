@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // autoriser ton frontend React
+    origin: ["http://localhost:5173", "https://test-cms-3t6l.vercel.app"], // autoriser ton frontend React
     credentials: true,
   })
 );

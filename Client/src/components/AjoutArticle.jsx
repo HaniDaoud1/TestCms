@@ -101,7 +101,7 @@ function AddProductForm() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/article/create", {
+      const response = await fetch("https://testcms-wd1h.onrender.com/article/create", {
         method: "POST",
         headers:{ "Authorization": `Bearer ${user.token}`},
         body: formData,
