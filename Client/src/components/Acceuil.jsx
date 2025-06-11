@@ -53,7 +53,7 @@ function Acceuil() {
       <div className="mb-14 flex flex-col sm:flex-row sm:items-start gap-x-8">
         <div className="sm:w-1/2">
           <p className="text-2xl font-bold">{offre.title}</p>
-          <p className="mt-2 text-gray-700">{offre.description}</p>
+          <p className="mt-2 text-gray-700 line-clamp-6">{offre.description}</p>
           <button
             onClick={() => navigate(`/Articles/${offre._id}`)}
             className="mt-4 px-5 py-2 border-2 mb-5 border-gray-800 text-gray-800 font-semibold rounded-lg transition-all duration-300 hover:bg-gray-800 hover:text-white hover:scale-105"
