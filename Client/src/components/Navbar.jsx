@@ -15,7 +15,7 @@ function Navbar() {
     <div className='h-20 w-full bg-gray-800 text-white shadow-lg font-bold'>
       <div className='container mx-auto h-full px-4 flex items-center justify-between'>
         {/* Logo */}
-        <div className='flex items-center space-x-2' 
+        <div className='flex items-center space-x-2 hover:cursor-pointer' 
         onClick={()=>{navigate('/Acceuil')}}>
           <div className='w-10 h-10 bg-indigo-500 rounded-lg flex items-center justify-center'>
             <span className='font-bold text-white'>TC</span>
