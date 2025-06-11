@@ -48,9 +48,9 @@ export default function LoginPage() {
         className="bg-white p-10 rounded-xl shadow-md w-full max-w-md space-y-6"
       >
         <p className="text-center text-sm text-gray-500 tracking-wide">
-          Bienvenue dans notre salon{" "}
-          <span className="font-bold text-green-600 text-lg">Fast Chat</span> By{" "}
-          <span className="font-bold text-blue-700 text-lg">Fast</span>
+          Bienvenue dans {" "}
+          <span className="font-bold text-green-600 text-lg">Test Cms</span> By{" "}
+          <span className="font-bold text-blue-700 text-lg">Hani</span>
         </p>
 
         <h1 className="text-2xl font-bold text-center text-gray-700">
