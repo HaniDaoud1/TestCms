@@ -33,7 +33,7 @@ export default function LoginPage() {
         dispatch(setUser({ token: data.token, userInfo: data.user || {} }));
         navigate("/Acceuil");
       } else {
-        setErrorMessage(data.message || "Échec de la connexion");
+        setErrorMessage(data.message || "Échec de la connexion \nMot de pass ou Email incorrect");
       }
     } catch (err) {
       setErrorMessage("Une erreur est survenue lors de la connexion.");
