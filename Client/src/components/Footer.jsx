@@ -53,7 +53,7 @@ function Footer() {
             <div className="relative w-full max-w-4xl h-64 sm:h-96 rounded-2xl overflow-hidden shadow-2xl">
               <img
                 className="w-full h-full object-cover"
-                src="https://th.bing.com/th/id/OIP.OVuIZJdrlA7TxcCbooRT4gHaF9?rs=1&pid=ImgDetMain"
+                src="https://periodicodelomasvendido.com/wp-content/uploads/2023/12/Las-mejores-marcas-de-computadoras-en-el-mercado-800x533.jpg"
                 alt="Global trade illustration"
               />
               <div className="absolute inset-0  flex items-end p-6">
