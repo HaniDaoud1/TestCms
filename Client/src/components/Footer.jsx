@@ -57,7 +57,7 @@ function Footer() {
                 alt="Global trade illustration"
               />
               <div className="absolute inset-0  flex items-end p-6">
-                <h2 className="text-3xl font-bold text-white">
+                <h2 className="text-3xl font-bold text-gray-400">
                   Votre partenaire 
                 </h2>
               </div>
